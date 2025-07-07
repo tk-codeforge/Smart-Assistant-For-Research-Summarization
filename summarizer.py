@@ -1,9 +1,9 @@
-from langchain.chat_models import SmartAssistant
+from langchain.chat_models import NLTK
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = SmartAssistant(model_name="gpt-3.5-turbo", temperature=0)
+llm = NLTK(model_name="gpt-3.5-turbo", temperature=0)
 
 def generate_summary(document_text):
     prompt = PromptTemplate(
