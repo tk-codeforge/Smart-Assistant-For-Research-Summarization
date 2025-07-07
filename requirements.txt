@@ -1,6 +1,6 @@
 streamlit
 langchain
-SmartAssistant
+NLTK
 pypdf2
 faiss-cpu
 tiktoken
