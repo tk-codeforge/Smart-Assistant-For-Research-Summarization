@@ -1,6 +1,6 @@
-from langchain.chat_models import SmartAssistant
+from langchain.chat_models import NLTK
 
-llm = SmartAssistant(temperature=0)
+llm = NLTK(temperature=0)
 
 def generate_questions(doc_text):
     prompt = f"Generate 3 logic or comprehension questions from this document:\n\n{doc_text[:3000]}"
